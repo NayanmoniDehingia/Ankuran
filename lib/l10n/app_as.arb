@@ -1,0 +1,10 @@
+{
+  "@@locale": "as",
+  "riddleText": "হাবিত কাঁহে ওলাই নাহে।",
+  "riddleText2": "তুলা হেন ভাঁহে শিল হেন তল পৰে। ",
+  "correctText":"আগুৱাই যাব পাৰা, সঠিক উত্তৰ ।",
+  "wrongMessage": " ভুল উত্তৰ, পুনৰ চেষ্টা কৰা ।",
+  "riddleGameTitle": "সাঁথৰ ",
+  "artGameTitle": "চিত্ৰাংকন",
+  "galleryText": "শিল্প প্ৰদৰ্শশালা"
+}

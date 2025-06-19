@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "riddleText": "Guess the tool hidden in the forest!",
+  "riddleText2": "raises as cotton falls as stone",
+  "correctText": "That's correct! You may proceed to the next.",
+  "wrongMessage": "Oops, try again!",
+  "riddleGameTitle": "Riddle",
+  "artGameTitle": "Art Game",
+  "galleryText": "Gallery"
+}
