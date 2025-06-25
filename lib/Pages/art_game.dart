@@ -32,8 +32,9 @@ class _ArtGameState extends State<ArtGame> {
   final List<String> imagePaths = [
     'assets/Images/crab.png',
     'assets/Images/art2.png',
-    'assets/Images/owl.png'
-
+    'assets/Images/owl.png',
+    'assets/Images/mandala.png',
+    'assets/Images/lizard.png',
   ];
   final GlobalKey<ArtCanvasState> _canvasKey = GlobalKey<ArtCanvasState>();
 

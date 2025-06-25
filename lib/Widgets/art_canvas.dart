@@ -6,6 +6,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:projects/Utils/flood_fill.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ArtCanvas extends StatefulWidget {
   final Color selectedColor;
@@ -92,7 +93,6 @@ class ArtCanvasState extends State<ArtCanvas> {
     return frame.image;
   }
 
-  /// 🔽 Call this from parent to save the current artwork
   Future<void> saveArtwork() async {
     try {
       final directory = await getApplicationDocumentsDirectory();
@@ -107,7 +107,7 @@ class ArtCanvasState extends State<ArtCanvas> {
 
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text("Artwork saved ✅")),
+          SnackBar(content: Text(AppLocalizations.of(context)!.saved1)),
         );
       }
     } catch (e) {

@@ -37,9 +37,8 @@ class _ExitButtonState extends State<ExitButton> {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-
+            Icon(Icons.keyboard_backspace_rounded, color: Colors.black),
             SizedBox(width: 5),
-            Text("Back", style: TextStyle(color: Colors.black, fontWeight:FontWeight.bold)),
           ],
         ),
       ),
